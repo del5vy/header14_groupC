@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=DM+Sans:wght@100;200;300;400;500;600;700;800&family=Sono:wght@400;600;700&display=swap");
+
+* {
+  margin: 0 !important;
+  font-family: "DM Sans";
+  color: #fff !important;
+}
+
+body {
+  background: #2f1893 !important;
+  /* margin: 30px !important; */
+}
+
+.navbar {
+  margin-top: 45px !important;
+  /* width: 972px; */
+  /* height: 40px; */
+}
+
+.navbar-brand {
+  margin-right: 358px !important;
+}
+
+.nav-link {
+  margin-right: 33px !important;
+}
+
+.btn-purchase {
+  width: 120px;
+  height: 40px;
+
+  border-radius: 100px;
+  background: var(--action-primary, #e93a7d);
+  border: none;
+}
+
+section {
+  margin-top: 126px !important;
+}
+
+.herotext {
+  width: 100%;
+  margin-top: 114px;
+}
+
+.para-text {
+  margin-top: 24px !important;
+}
+
+.btn-hero {
+  margin-top: 45px !important;
+  width: 157px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: var(--action-primary, #e93a7d);
+  border: none;
+  margin-bottom: 20px !important;
+  /* text-align: center; */
+}
+
+/* header14 form */
+.formclass {
+  width: 100%;
+  height: 500px;
+  background: #ffffff;
+  float: right;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+.formclass h3 {
+  padding: 12px 0;
+  color: #1e0e62 !important;
+  font-size: 42px;
+}
+input[type="email"],
+input[type="password"] {
+  width: 80%;
+  padding: 12px 0 12px 24px;
+  color: #151439;
+  border-radius: 20px;
+  border: 2px solid #ebeaed;
+  outline: none;
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+label,
+.class-or,
+.mr-2 {
+  font-size: 14px;
+  color: #151439 !important;
+}
+
+input[type="checkbox"] {
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+  accent-color: green;
+}
+
+.signIn14,
+.LoginIn14 {
+  width: 80%;
+  border-radius: 100px;
+  padding: 12px 0;
+  border: none;
+  color: #ffffff;
+}
+.signIn14 {
+  background: #482be7;
+}
+
+.LoginIn14 {
+  background: #1da1f2;
+}
+
+.side {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.formclass p {
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.signinLink {
+  color: #25dac5 !important;
+}
